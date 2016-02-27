@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1431611545 source:c:\users\noi 25\desktop\problema i.1 - 4\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+	<set>
+	<utility>
+
+1431613452 source:c:\users\noi 25\desktop\problema i.1 - 4 - copy\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+	<set>
+	<utility>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1428222251 source:c:\users\noi 25\desktop\izo\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+	<cstring>
+	<stdlib.h>
+	<climits>
+

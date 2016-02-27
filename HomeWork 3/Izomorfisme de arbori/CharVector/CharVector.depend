@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1428217979 source:c:\users\noi 25\desktop\charvector\main.cpp
+	<algorithm>
+	<vector>
+	<iostream>
+	<cstring>
+

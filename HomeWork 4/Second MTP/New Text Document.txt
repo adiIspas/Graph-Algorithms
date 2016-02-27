@@ -1,0 +1,150 @@
+ /*for(u = 1; u <= n; u++)
+        {
+            for(v = 1; v <= n; v++)
+            {
+                muchie = make_pair(u,v);
+                pereche2 = make_pair(0,muchie);
+                maxim[u][v].push_back(pereche2);
+            }
+
+            q.push(u);
+            while(!q.empty())
+                {
+                    x = q.front();
+                    q.pop();
+
+                    for(v = 0; v < primul_arbore[x].size(); v++)
+                        {
+                            info = primul_arbore[x][v];
+
+                            if(maxim[u][info][0].first == 0 && info != u)
+                                if(x == u || costuri_arbore[x][info] > maxim[u][x][0].first)
+                                    {
+                                        muchie = make_pair(x,info);
+                                        pereche2 = make_pair(costuri_arbore[x][info],muchie);
+                                        maxim[u][info].push_back(pereche2);
+                                    }
+                                else
+                                    {
+                                        muchie = make_pair(u,x);
+                                        pereche2 = make_pair(costuri_arbore[x][info],muchie);
+                                        maxim[u][info].push_back(pereche2);
+                                    }
+
+                            q.push(info);
+                        }
+                }
+            }
+        */
+
+   /* for(i = 1; i <= n; i++)
+    if(noduri_arbore[i])
+    {
+        q.push(i);
+        while(!q.empty())
+        {
+            nod = q.front();
+            vizitat[nod] = 1;
+            q.pop();
+
+            for(j = 0; j < primul_arbore[i].size(); j++)
+                if(!vizitat[primul_arbore[i][j]])
+                    {
+                        cost_lant[nod][primul_arbore[i][j]] += costuri_arbore[nod][primul_arbore[i][j]];
+                        q.push(primul_arbore[i][j]);
+                    }
+        }
+    }*/
+
+
+--------------
+
+
+
+ /* vizitat[i] = 1;
+                    q.push(i);
+
+                    while (!q.empty())
+                        {
+                            nod = q.front();
+                            q.pop();
+                            //cout << nod << " ";
+                            vizitat[nod] = 1;
+                            for(l = 0; l < al_doilea_arbore[nr_arbore][nod].size(); l++)
+                                if(vizitat[al_doilea_arbore[nr_arbore][nod][l]] == 0)
+                                    {
+                                        vizitat[al_doilea_arbore[nr_arbore][nod][l]] = 1;
+                                        parinte[al_doilea_arbore[nr_arbore][nod][l]] = nod;
+
+                                        //cout << nod << " " << al_doilea_arbore[nr_arbore][nod][l] << endl;
+                                        q.push(al_doilea_arbore[nr_arbore][nod][l]);
+                                    }
+                        }
+
+                    nod =  muchii[i][j];
+                    cost_muchie = 0;
+                    while(parinte[nod])
+                    {
+                        if(costuri_arbore[nod][parinte[nod]] > cost_muchie)
+                            {
+                                first = nod;
+                                second = parinte[nod];
+                                cost_muchie = costuri_arbore[nod][parinte[nod]];
+                            }
+
+                        nod = parinte[nod];
+                    }
+
+                    cout << first << " " << second << " " << cost_muchie << endl;
+                    cout << i << " " << muchii[i][j] << " " << costuri_graf[i][muchii[i][j]] << endl;
+                    cout << cost_arbore_minim << " " << cost_arbore_minim - cost_muchie + costuri_graf[i][muchii[i][j]] << endl << endl;
+
+                    if(cost_minim > cost_arbore_minim - cost_muchie + costuri_graf[i][muchii[i][j]])
+                        {
+                            cost_minim = cost_arbore_minim - cost_muchie + costuri_graf[i][muchii[i][j]];
+                            arbore_minim = nr_arbore;
+                        }
+
+                    //cout << cost_minim << endl << endl;
+
+                    for(l = 0; l < al_doilea_arbore[nr_arbore][first].size(); l++)
+                        if(al_doilea_arbore[nr_arbore][first][l] == second)
+                            {
+                                al_doilea_arbore[nr_arbore][first].erase(al_doilea_arbore[nr_arbore][first].begin() + l);
+                                break;
+                            }
+
+                    for(l = 0; l < al_doilea_arbore[nr_arbore][second].size(); l++)
+                        if(al_doilea_arbore[nr_arbore][second][l] == first)
+                            {
+                                al_doilea_arbore[nr_arbore][second].erase(al_doilea_arbore[nr_arbore][second].begin() + l);
+                                break;
+                            }
+
+                    if(first == i)
+                        al_doilea_arbore[nr_arbore][first].push_back(muchii[i][j]);
+                    else
+                    if(first == muchii[i][j])
+                        al_doilea_arbore[nr_arbore][first].push_back(i);
+
+                   /* else
+                    if(second == i)
+                        al_doilea_arbore[nr_arbore][second].push_back(muchii[i][j]);
+                    else
+                    if(second == muchii[i][j])
+                        al_doilea_arbore[nr_arbore][second].push_back(i);*/
+
+                   /*
+                    cout << cost_minim << endl;
+                    for(l = 1; l <= n; l++)
+                        for(k = 0; k < al_doilea_arbore[nr_arbore][l].size(); k++)
+                            cout << l << " " << al_doilea_arbore[nr_arbore][l][k] << endl;
+
+                    cout << endl << endl;
+
+                    for(l = 1; l <= n; l++)
+                        {
+                            vizitat[l] = 0;
+                            parinte[l] = 0;
+                        }
+                    */

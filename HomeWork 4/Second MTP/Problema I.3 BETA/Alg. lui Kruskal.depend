@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1428331831 source:c:\users\noi 25\desktop\alg. lui kruskal\main.cpp
+	<iostream>
+	<vector>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<fstream>
+
+1428332348 source:e:\teme laborator\grafuri\laborator iv\problema i.1\main.cpp
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1428483892 source:c:\users\noi 25\desktop\problema i.1\main.cpp
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+	<iostream>
+	<queue>
+

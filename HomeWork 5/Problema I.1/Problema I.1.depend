@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1431071722 source:c:\users\noi 25\desktop\lab5\problema i.1\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<utility>
+	<queue>
+
+1431073560 source:g:\teme laborator\grafuri\laborator v\problema i.1\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<utility>
+	<queue>
+

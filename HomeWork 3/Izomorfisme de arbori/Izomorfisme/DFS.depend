@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1425285925 source:c:\users\noi 25\desktop\laborator alg. grafurilor\laborator i\dfs\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1426497894 source:c:\users\noi 25\desktop\work\dfs\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1426501507 source:c:\users\noi 25\desktop\work\dfs - copy\main.cpp
+	<iostream>
+	<vector>
+	<stack>
+	<fstream>
+
+1426501965 source:c:\users\noi 25\desktop\work\biconex\main.cpp
+	<iostream>
+	<vector>
+	<stack>
+	<fstream>
+
+1427795503 source:c:\users\noi 25\desktop\infoaarena - biconex - 100p\main.cpp
+	<vector>
+	<stack>
+	<fstream>
+	<iostream>
+
+1427818970 source:c:\users\noi 25\desktop\cod prufer\main.cpp
+	<vector>
+	<stack>
+	<fstream>
+	<iostream>
+
+1427998267 source:c:\users\noi 25\desktop\izomorfisme\main.cpp
+	<vector>
+	<stack>
+	<fstream>
+	<iostream>
+

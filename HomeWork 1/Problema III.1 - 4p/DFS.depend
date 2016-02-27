@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1425285925 source:c:\users\noi 25\desktop\laborator alg. grafurilor\laborator i\dfs\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1426503537 source:c:\users\noi 25\desktop\work\dfs\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1426504178 source:e:\teme laborator\grafuri\laborator i\problema iii.1 - 4p\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+

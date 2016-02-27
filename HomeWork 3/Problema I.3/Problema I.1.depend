@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1427715065 source:c:\users\noi 25\desktop\izomorfisme\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1428010996 source:c:\users\noi 25\desktop\izomorfisme2\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1428010996 source:c:\users\noi 25\desktop\problema i.3\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1428317955 source:e:\teme laborator\grafuri\laborator iii\problema i.3\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+	<cstring>
+	<stdlib.h>
+
+1428317955 source:c:\users\noi 25\desktop\problema i.3 beta\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+	<cstring>
+	<stdlib.h>
+
+1429705061 source:f:\teme laborator\grafuri\laborator iii\problema i.3\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+	<cstring>
+	<stdlib.h>
+

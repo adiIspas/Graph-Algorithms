@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1426078403 source:f:\laborator alg. grafurilor\laborator i\infoarena - det. componente conexe\main.cpp
+	<vector>
+	<queue>
+	<fstream>
+

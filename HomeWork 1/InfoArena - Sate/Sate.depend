@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1425899335 source:c:\users\noi 25\desktop\programare\laborator alg. grafurilor\laborator i\sate\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1426511393 source:c:\users\noi 25\desktop\programare\laborator alg. grafurilor\laborator i\infoarena - sate\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<fstream>
+
+1426933999 source:e:\teme laborator\grafuri\laborator i\infoarena - sate\main.cpp
+	<vector>
+	<queue>
+	<fstream>
+

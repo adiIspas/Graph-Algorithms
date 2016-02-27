@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1431356482 source:c:\users\noi 25\desktop\lab5\problema i.2\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<utility>
+	<queue>
+

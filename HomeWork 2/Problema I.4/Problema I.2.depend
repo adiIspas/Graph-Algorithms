@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1425915089 source:c:\users\noi 25\desktop\programare\laborator alg. grafurilor\laborator i\problema i.2\main.cpp
+	<iostream>
+	<cstdlib>
+
+1426082806 source:d:\teme laborator\grafuri\laborator ii\problema i.2\main.cpp
+	<fstream>
+
+1427894210 source:d:\teme laborator\grafuri\laborator ii\problema i.2 - copy\main.cpp
+	<fstream>
+	<iostream>
+
+1427896299 source:f:\teme laborator\grafuri\laborator ii\problema i.2 - copy\main.cpp
+	<fstream>
+	<iostream>
+
+1427962846 source:c:\users\noi 25\desktop\problema i.2 - copy2\main.cpp
+	<fstream>
+
+1427965515 source:c:\users\noi 25\desktop\problema i.4\main.cpp
+	<fstream>
+	<iostream>
+
+1427965893 source:e:\teme laborator\grafuri\laborator ii\problema i.4\main.cpp
+	<fstream>
+
+1428492487 source:f:\teme laborator\grafuri\laborator ii\problema i.4\main.cpp
+	<fstream>
+	<iostream>
+
